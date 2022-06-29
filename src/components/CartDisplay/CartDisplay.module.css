@@ -1,0 +1,23 @@
+.CartDisplay .cartItem {
+    display:flex;
+  }
+  button {
+    border: 1px solid #FE5F1E;
+    border-radius: 1rem;
+    background-color: #FE5F1E;
+    color: white;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+   button:not(:disabled):hover {
+    background-color: #fd8251;
+  }     
+  button:focus {
+    outline: none;
+  }
+  button:disabled {
+    opacity: .5;
+  }
